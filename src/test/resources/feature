@@ -1,0 +1,13 @@
+Author: Rodrigo Castiblanco Pardo
+
+Feature Vaidar el correcto Login en la pagina de prueba con credenciales correctas
+Scenario Ouline: TC1 - Login page automationexercise
+
+Give que Rodrigo se dirige a la "pagina"
+When ingresa "nombre" y "contraseña" seleccionando boton Login
+Then debera poder ver su "nombre" de perfil en la pagina de inicio
+
+Example:
+|      <nombre>       |  <contrasela>|
+|wl.interview@test.com|    Test1234  |
+
